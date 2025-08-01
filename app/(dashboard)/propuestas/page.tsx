@@ -432,7 +432,7 @@ const ProposalGenerator: React.FC = () => {
       sections: [
         {
           id: "1",
-          title: "Resumen Ejecutivo",
+          title: "Resumen Ejecutivo.",
           type: "text",
           content:
             "La presente propuesta responde a la necesidad de la Universidad Técnica Federico Santa María (UTFSM) de contar con un servicio especializado para el desarrollo e implementación de un Sistema de Medición, Control y Reporte de Competencias Transversales, que permita evaluar el progreso formativo de sus estudiantes de manera sistemática, integrada y basada en datos.\n\nEsta solución tiene por objetivo fortalecer los procesos institucionales de evaluación y seguimiento, entregando herramientas tecnológicas que contribuyan a la mejora continua de la calidad educativa.",
