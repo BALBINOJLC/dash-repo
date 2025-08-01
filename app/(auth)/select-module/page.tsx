@@ -40,61 +40,8 @@ export default function SelectModulePage() {
           <p className="text-muted-foreground mt-1">Selecciona el módulo al que deseas acceder</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <Card className="overflow-hidden border-2 hover:border-primary/50 transition-all duration-200">
-            <div className="h-2 bg-primary"></div>
-            <CardHeader>
-              <CardTitle className="flex items-center gap-2">
-                <Search className="h-5 w-5 text-primary" />
-                Agente Licitador Completo
-              </CardTitle>
-              <CardDescription>Accede a todas las funcionalidades del sistema</CardDescription>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              <p className="text-sm text-muted-foreground">
-                El agente licitador completo te permite gestionar todo el proceso de licitaciones, desde la búsqueda
-                hasta la presentación de propuestas.
-              </p>
-              <div className="grid grid-cols-1 gap-3">
-                <div className="flex items-center gap-2 bg-muted/50 p-3 rounded-md">
-                  <Search className="h-4 w-4 text-primary" />
-                  <div>
-                    <p className="text-sm font-medium">Búsqueda Inteligente</p>
-                    <p className="text-xs text-muted-foreground">Encuentra licitaciones relevantes</p>
-                  </div>
-                </div>
-                <div className="flex items-center gap-2 bg-muted/50 p-3 rounded-md">
-                  <Brain className="h-4 w-4 text-primary" />
-                  <div>
-                    <p className="text-sm font-medium">Análisis con IA</p>
-                    <p className="text-xs text-muted-foreground">Evaluación automática de bases</p>
-                  </div>
-                </div>
-                <div className="flex items-center gap-2 bg-muted/50 p-3 rounded-md">
-                  <FileText className="h-4 w-4 text-primary" />
-                  <div>
-                    <p className="text-sm font-medium">Gestión Documental</p>
-                    <p className="text-xs text-muted-foreground">Control de documentos requeridos</p>
-                  </div>
-                </div>
-                <div className="flex items-center gap-2 bg-muted/50 p-3 rounded-md">
-                  <Calculator className="h-4 w-4 text-primary" />
-                  <div>
-                    <p className="text-sm font-medium">Cotizador Integrado</p>
-                    <p className="text-xs text-muted-foreground">Estimación de costos de proyectos</p>
-                  </div>
-                </div>
-              </div>
-            </CardContent>
-            <CardFooter>
-              <Button className="w-full" onClick={() => handleSelectModule("full")}>
-                Acceder al Sistema Completo
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
-            </CardFooter>
-          </Card>
-
-          <Card className="overflow-hidden border-2 hover:border-primary/50 transition-all duration-200">
+        <div className="flex justify-center">
+          <Card className="overflow-hidden border-2 hover:border-primary/50 transition-all duration-200 max-w-md">
             <div className="h-2 bg-primary"></div>
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
@@ -111,10 +58,7 @@ export default function SelectModulePage() {
               <div className="grid grid-cols-1 gap-3">
                 <div className="flex items-center gap-2 bg-muted/50 p-3 rounded-md">
                   <Calculator className="h-4 w-4 text-primary" />
-                  <div>
-                    <p className="text-sm font-medium">Estimación Precisa</p>
-                    <p className="text-xs text-muted-foreground">Cálculo detallado de costos</p>
-                  </div>
+ 
                 </div>
                 <div className="flex items-center gap-2 bg-muted/50 p-3 rounded-md">
                   <Clock className="h-4 w-4 text-primary" />
